@@ -1,0 +1,114 @@
+body {
+    text-align: center;
+    margin-top: 700px;
+}
+
+#welcome {
+    background: linear-gradient(blue 0%, skyblue 100%);
+    opacity: 0.8;
+    height: 700px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: table;
+
+}
+
+.header {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.image1 {
+    border-radius: 100%;
+    width: 175px;
+    margin-bottom: 50px;
+
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.5;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+
+}
+
+#spantag {
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#bio {
+    padding: 50px;
+    font-size: 20px;
+
+}
+
+.line {
+    width: 100px;
+    height: 6px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+p {
+    max-width: 650px;
+    line-height: 1.5;
+    margin: 25px auto;
+
+}
+
+
+.menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22 + px;
+}
+
+.links {
+    list-style: none;
+    float: left;
+    padding: 5px 14px;
+
+}
+
+.links:hover {
+    background-color: coral;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#firsth1 {
+    color: white;
+}
+
+.article {
+    color: blue;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.article:hover{
+    text-decoration: underline;
+    text-decoration-color: blue;
+    font-size:21px;
+}
